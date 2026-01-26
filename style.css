@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    background: #2B2B2B;
+    background: linear-gradient(90deg, rgba(43, 43, 43, 1) 59%, rgba(13, 76, 175, 1) 100%);
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+
+#noticiaprincipal h1{
+    color: #0D4CAF;
+}
+
+#button-saiba-mais{
+    background-color: #0D4CAF;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 50px 10px 50px;
+    border: none;
+}
+
+footer{
+    background-color: #2B2B2B;
+}
+
+footer nav a{
+    color: white;
+    text-decoration: none;
+}
