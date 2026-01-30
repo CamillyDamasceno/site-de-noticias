@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <title>Site de Notícias</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
-            <img src="./imagens/Logo.png" alt="Logo do site Notícias">
+            <a href="index.html"><img src="./imagens/Logo.png" alt="Logo do site Notícias"></a>
         </div>
         <nav>
             <a href="">Jogos</a>
@@ -22,39 +26,39 @@
             <a href="">Famosos</a>
         </nav>
         <div class="actions">
-            <img src="./imagens/iconamoon_search-duotone.png" alt="Ícone de lupa">
-            <img src="./imagens/mdi_github.png" alt="ícone da logo do Github">
-            <img src="./imagens/ix_language-filled.png" alt="ícone de buscar por idiomas">
+            <img src="./imagens/iconamoon_search-duotone.png" alt="Ícone de lupa de pesquisa">
+            <a href=""><img src="./imagens/mdi_github.png" alt="ícone para ir ao Github"></a>
+            <img src="./imagens/ix_language-filled.png" alt="ícone para buscar por idiomas">
         </div>
     </header>
 
     <main>
         <section>
-            <article id="noticiaprincipal">
-                <h1>Wagner Moura marca presença no Globo de Ouro e reforça o protagonismo brasileiro em Hollywood</h1>
-                    <ul>
-                        <li>Cerimônia reuniu estrelas de Hollywood.</li>
-                        <li>Ator representou o Brasil no evento.</li>
-                        <li>Discursos e prêmios movimentaram a noite.</li>
-                    </ul> 
+            <article class="noticia-principal">
+                <h2>Wagner Moura marca presença no Globo de Ouro e reforça o protagonismo brasileiro em Hollywood</h2>
+                <ul>
+                    <li>Cerimônia reuniu estrelas de Hollywood.</li>
+                    <li>Ator representou o Brasil no evento.</li>
+                    <li>Discursos e prêmios movimentaram a noite.</li>
+                </ul>
             </article>
 
-            <div id="primeira-secao-noticias">
-                <article>
+            <div class="secao1-linha2">
+                <article class="noticia-grupo">
                     <img src="./imagens/wagnerlevapremio.jpg" alt="Wagner Moura segurando o Globo de Ouro">
                     <h3>Wagner Moura leva prêmio para casa</h3>
                     <ul>
                         <li>Confira a categoria que o ator brasileiro venceu</li>
                     </ul>
                 </article>
-                <article>
+                <article class="noticia-grupo">
                     <img src="./imagens/filmevencedor.avif" alt="Filme vencedor do Globo de Ouro 2026">
                     <h3>Conheça filme vencedor do Globo de Ouro 2026</h3>
                     <ul>
                         <li>Obra brasileira carrega duas premiações internacionais</li>
                     </ul>
                 </article>
-                <article>
+                <article class="noticia-grupo">
                     <img src="./imagens/globodeourolooks.avif" alt="Alta costura do Globo de Ouro 2026">
                     <h3>Alta costura no Globo de Ouro 2026</h3>
                     <ul>
@@ -62,23 +66,23 @@
                     </ul>
                 </article>
             </div>
-            
-            <div id="segunda-secao-noticias">
-                <article>
+
+            <div class="secao1-linha3">
+                <article class="noticia-grupo">
                     <img src="./imagens/streamingampliacatalogo.webp" alt="Pessoa navegando por um streaming de filmes">
                     <h3>Streaming amplia catálogo de filmes</h3>
                     <ul>
                         <li>Produções originais em destaque</li>
                     </ul>
                 </article>
-                <article>
+                <article class="noticia-grupo">
                     <img src="./imagens/narrativascurtas.jpg" alt="Foto da protagonista do filme Donzela">
                     <h3>Diretores apostam em narrativas curtas</h3>
                     <ul>
                         <li>Ritmo rápido e direto</li>
                     </ul>
                 </article>
-                <article>
+                <article class="noticia-grupo">
                     <img src="./imagens/novofilmenacional.webp" alt="Foto do filme O Agente Secreto">
                     <h3>Novo filme nacional estreia nos cinemas</h3>
                     <ul>
@@ -89,71 +93,66 @@
         </section>
 
         <section>
-            <article>
-                <img src="./imagens/jogoaberto.webp" alt="Foto do jogo Where Winds Meet">
-                <h3>Novo jogo de mundo aberto promete revolucionar a experiência multiplayer</h3>
-                <ul>
-                    <li>Mapa expansivo com eventos dinâmicos e exploração cooperativa</li>
-                    <li>Sistema online permite interação entre milhares de jogadores</li>
-                </ul>
-            </article>
-            <article>
-                <img src="./imagens/atualizaçãodejogo.jpg" alt="Foto do jogo 2XKO">
-                <h3>Atualização surpresa traz melhorias de desempenho e novos modos de jogo</h3>
-                <ul>
-                    <li>Redução no tempo de carregamento e aumento da taxa de quadros</li>
-                    <li>Novos modos competitivos ampliam as opções para jogadores veteranos</li>
-                </ul>
-            </article>
-        </section>
+            <div class="secao2-linha1">
+                <article class="noticia-grupo">
+                    <img src="./imagens/jogoaberto.webp" alt="Foto do jogo Where Winds Meet">
+                    <h3>Novo jogo de mundo aberto promete revolucionar a experiência multiplayer</h3>
+                    <ul>
+                        <li>Mapa expansivo com eventos dinâmicos e exploração cooperativa</li>
+                        <li>Sistema online permite interação entre milhares de jogadores</li>
+                    </ul>
+                </article>
+                <article class="noticia-grupo">
+                    <img src="./imagens/atualizaçãodejogo.jpg" alt="Foto do jogo 2XKO">
+                    <h3>Atualização surpresa traz melhorias de desempenho e novos modos de jogo</h3>
+                    <ul>
+                        <li>Redução no tempo de carregamento e aumento da taxa de quadros</li>
+                        <li>Novos modos competitivos ampliam as opções para jogadores veteranos</li>
+                    </ul>
+                </article>
+            </div>
 
-        <section>
-            <article>
-                <img src="./imagens/tendenciagastronomica.jpg" alt="Prato de comida sofisticada">
-                <h3>Tendências gastronômicas de 2026 valorizam sabores regionais</h3>
-                <ul>
-                    <li>Chefs resgatam receitas tradicionais com releituras criativas</li>
-                    <li>Uso de ingredientes sazonais ganha cada vez mais espaço</li>
-                </ul>
-            </article>
-            <article>
-                <img src="./imagens/restaurantecontemporaneo.jpg" alt="Foto de um restaurante contemporâneo em São Paulo">
-                <h3>Novo restaurante em São Paulo aposta em culinária contemporânea para conquistar o público</h3>
-                <button id="button-saiba-mais">Saiba mais</button>
-            </article>
-        </section>
+            <div class="secao2-linha2">
+                <article class="noticia-grupo">
+                    <img src="./imagens/tendenciagastronomica.jpg" alt="Prato de comida sofisticada">
+                    <h3>Tendências gastronômicas de 2026 valorizam sabores regionais</h3>
+                    <ul>
+                        <li>Chefs resgatam receitas tradicionais com releituras criativas</li>
+                        <li>Uso de ingredientes sazonais ganha cada vez mais espaço</li>
+                    </ul>
+                </article>
+                <article class="noticia-grupo">
+                    <img src="./imagens/restaurantecontemporaneo.jpg"
+                        alt="Foto de um restaurante contemporâneo em São Paulo">
+                    <h3>Novo restaurante em São Paulo aposta em culinária contemporânea para conquistar o público</h3>
+                    <button id="botao-saibamais">Saiba mais</button>
+                </article>
+            </div>
 
-        <section>
-            <article>
-                <img src="./imagens/materialresistente.jpg" alt="Moléculas de um material resistente">
-                <h3>Cientistas desenvolvem novo material mais leve e resistente</h3>
-                <ul>
-                    <li>Descoberta pode impactar os setores de construção e tecnologia</li>
-                    <li>Testes iniciais mostram alta durabilidade e baixo custo</li>
-                </ul>
-            </article>
-            <article>
-                <img src="./imagens/avançoscerebrais.jpg" alt="Ilustração de um cérebro colorido">
-                <h3>Pesquisa revela avanços no entendimento do cérebro humano</h3>
-                <ul>
-                    <li>Estudo identifica novas conexões neurais ligadas à memória</li>
-                    <li>Resultados abrem caminho para tratamentos neurológicos inovadores</li>
-                </ul>
-            </article>
+            <div class="secao2-linha3">
+                <article class="noticia-grupo">
+                    <img src="./imagens/materialresistente.jpg" alt="Moléculas de um material resistente">
+                    <h3>Cientistas desenvolvem novo material mais leve e resistente</h3>
+                    <ul>
+                        <li>Descoberta pode impactar os setores de construção e tecnologia</li>
+                        <li>Testes iniciais mostram alta durabilidade e baixo custo</li>
+                    </ul>
+                </article>
+                <article class="noticia-grupo">
+                    <img src="./imagens/avançoscerebrais.jpg" alt="Ilustração de um cérebro colorido">
+                    <h3>Pesquisa revela avanços no entendimento do cérebro humano</h3>
+                    <ul>
+                        <li>Estudo identifica novas conexões neurais ligadas à memória</li>
+                        <li>Resultados abrem caminho para tratamentos neurológicos inovadores</li>
+                    </ul>
+                </article>
+            </div>
         </section>
     </main>
 
     <footer>
-        <div class="logo">
-            <img src="./imagens/Logo.png" alt="Logo do site Notícias">
-        </div>
-
-        <nav>
-            <a href="">Princípios editoriais</a>
-            <a href="">Política de privacidade</a>
-            <a href="">Anuncie conosco</a>
-            <a href="">Entre em contato</a>
-        </nav>
+        <p>Site de notícias desenvolvido por Camilly Damasceno.</p>
     </footer>
 </body>
+
 </html>
