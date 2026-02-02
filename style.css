@@ -6,8 +6,8 @@
 
 /* HEADER */
 header {
-    background: #2B2B2B;
-    background: linear-gradient(90deg, rgba(43, 43, 43, 1) 59%, rgba(13, 76, 175, 1) 100%);
+    background: #0f0f0f;
+    background: linear-gradient(90deg, rgb(19, 19, 19) 59%, rgba(13, 76, 175, 1) 100%);
     display: flex;
     height: 100px;
     justify-content: space-between;
@@ -30,10 +30,6 @@ header nav a {
     font-size: 16px;
     font-weight: 600;
     transition: 0.5s;
-}
-
-header nav a:first-child {
-    color: #498cf8;
 }
 
 header nav a:hover {
@@ -87,9 +83,10 @@ main section:first-child article li {
 }
 
 .noticia-principal ul {
-    padding-left: 20px;
+    padding-left: 30px;
     margin-top: 10px;
     margin-bottom: 15px;
+    font-size: 16px;
 }
 
 .noticia-principal ul li {
@@ -118,7 +115,7 @@ main section:first-child article li {
     gap: 50px;
 }
 
-.noticia-grupo{
+.noticia-grupo {
     width: 100%;
 }
 
@@ -134,8 +131,9 @@ main section:first-child article li {
 }
 
 .noticia-grupo img {
-    height: 130px;
+    height: 140px;
     width: 100%;
+    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -168,7 +166,7 @@ main section:nth-child(2) article li {
     display: flex;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding: 40px 0px;
-    gap: 20%;
+    gap: 50px;
 }
 
 .secao2-linha3 {
@@ -191,14 +189,15 @@ main section:nth-child(2) article li {
     margin-top: 5px;
 }
 
-footer{
+/* FOOTER */
+footer {
     height: 50px;
     background-color: #2B2B2B;
     padding: 10px 30px;
     color: rgba(255, 255, 255, 0.486);
 }
 
-footer p{
+footer p {
     font-size: 14px;
     font-weight: 400;
 }
