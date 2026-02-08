@@ -36,10 +36,9 @@ header nav a:hover {
     color: #498cf8;
 }
 
-header nav a:first-child {
+header nav a.ativo {
     color: #498cf8;
 }
-
 
 .actions {
     display: flex;
